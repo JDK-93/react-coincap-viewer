@@ -9,13 +9,14 @@ export const useFetchData = () => {
   });
 
   useEffect(() => {
-    getAssets().then((d) => {
-      setState({
-        data: d,
-        loading: false,
-        error: false,
+      console.log("h")
+      getAssets().then((d) => {
+        setState({
+          data: d,
+          loading: false,
+          error: false,
+        });
       });
-    });
   }, []);
 
   return state;
