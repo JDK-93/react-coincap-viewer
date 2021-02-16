@@ -1,27 +1,30 @@
 # React Simple Crypto Viewer
-Frontend para consumir la API gratuita proporcionada por [Coincap](https://coincap.io/), consulta y muestra información relevante sobre las primeras 20 criptomonedas del ranking de dicha página. Se desarrolló con React utilizando create-react-app, componentes funcionales, los Hooks useReducer y useEffect y custom Hooks básicos para el manejo de peticiones fetch.
+
+Frontend to consume the free API provided by [Coincap](https://coincap.io/), consult and display relevant information about the first 20 cryptocurrencies in the ranking of said page. It was developed with React using `create-react-app`, functional components, the useReducer and useEffect Hooks and basic custom Hooks for handling fetch requests.
 
 # Demo
 
-Si desea ver una demo de este proyecto, puedes visitar el siguiente [Link](https://602b0a0136ca48b8e67c4b66--reverent-lumiere-c10a59.netlify.app/).
+If you want to see a demo of this project, you can visit the following [link](https://602b0a0136ca48b8e67c4b66--reverent-lumiere-c10a59.netlify.app/).
 
-# Instalación y ejecución
+# Installation
 
-Ejecute los siguientes comandos en una consola: 
+Run the following commands in a console:
 ```
 git clone git@github.com:JDK-93/react-coincap-viewer.git
 cd react-coincap-viewer
 npm install
 ```
-## Scripts disponibles
+## Available Scripts
 
-En el directorio del proyecto podrá ejecutar los siguientes scripts:
+In the project directory, you can run:
 
 ### `npm start`
 
-Ejecuta la aplicación en modo de desarrollo.\
-Abra [http://localhost:3000](http://localhost:3000) para verlo en el navegador.\
-La página se volverá a cargar si realiza modificaciones.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
 ### `npm test`
 
@@ -30,10 +33,15 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-Crea la aplicación para producción en la carpeta `build`.\
-Consulte [implementación](https://facebook.github.io/create-react-app/docs/deployment) para obtener más información.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Vista previa
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Preview
 <p align="center">
   <img src="images/viewer.png">
 </p>
