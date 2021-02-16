@@ -10,7 +10,7 @@ Si desea ver una demo de este proyecto, puedes visitar el siguiente [Link](https
 Ejecute los siguientes comandos en una consola: 
 ```
 git clone git@github.com:JDK-93/react-coincap-viewer.git
-cd react-todo-list
+cd react-coincap-viewer
 npm install
 ```
 ## Vista previa
