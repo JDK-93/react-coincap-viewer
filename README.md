@@ -4,7 +4,7 @@ Frontend to consume the free API provided by [Coincap](https://coincap.io/), con
 
 # Demo
 
-If you want to see a demo of this project, you can visit the following [link](https://602b0a0136ca48b8e67c4b66--reverent-lumiere-c10a59.netlify.app/).
+If you want to see a demo of this project, you can visit the following [link](https://jdk-crypto-viewer.netlify.app/).
 
 # Installation
 
