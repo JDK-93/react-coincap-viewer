@@ -1,4 +1,4 @@
-# React Simple Crypto Viewer
+# React: Simple Crypto Viewer
 
 Frontend to consume the free API provided by [Coincap](https://coincap.io/), consult and display relevant information about the first 20 cryptocurrencies in the ranking of said page. It was developed with React using `create-react-app`, functional components, the useReducer and useEffect Hooks and basic custom Hooks for handling fetch requests.
 
